@@ -1,0 +1,113 @@
+.login-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../public/layout/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(34, 34, 34, 0.815);
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .box {
+        position: relative;
+        z-index: 2;
+        width: 40%;
+        padding: 10px;
+
+        @media(max-width:567px) {
+            width: 100%;
+        }
+
+        .Logo-login {
+            width: 200px;
+            margin: auto;
+            line-height: 40px;
+            font-size: 32px;
+            color: rgb(227, 219, 219);
+            cursor: pointer;
+
+            @media(max-width:567px) {
+                width: 50%;
+                text-align: center;
+                margin: 10px auto;
+            }
+        }
+
+        .text {
+            font-size: 25px;
+            color: #Eee;
+            margin: 18px auto;
+            width: 300px;
+
+            @media(max-width:567px) {
+                width: 100%;
+                margin: 20px auto;
+
+            }
+        }
+
+        label {
+            display: block;
+            color: #EEE;
+            font-size: 20px;
+            margin: 6px 12px;
+        }
+
+        input {
+            width: 80%;
+            background: none;
+            border: none;
+            outline: none;
+            padding: 5px 10px;
+            font-size: 20px;
+            margin: 12px;
+            border-bottom: 1px solid #222;
+            color: #fff;
+
+            &::-webkit-input-placeholder {
+                color: rgb(194, 185, 185)
+            }
+        }
+
+        a {
+            display: block;
+            width: 150px;
+            margin: 25px auto;
+            padding: 10px;
+            background-color: #4b373a;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            transition: .2s;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+
+            &.noactive {
+                opacity: .5;
+                pointer-events: none;
+            }
+
+            &:hover {
+                background-color: #eee;
+                color: rgb(87, 22, 22);
+            }
+
+            &:active {
+                transform: translateY(2px);
+            }
+        }
+    }
+}

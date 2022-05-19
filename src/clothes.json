@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "title": "Erkek Esofman ",
+        "imageUrl": "./images/clothes/photo5963326477636319359.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 1",
+        "price": 90,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "2",
+        "title": "Cocuk Esofman",
+        "imageUrl": "./images/clothes/photo5963326477636319402.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 2",
+        "price": 120,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "3",
+        "title": "Kadin Esofman",
+        "imageUrl": "./images/clothes/photo5967515887521084167.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 3",
+        "price": 40,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "4",
+        "title": "Takim Esofman",
+        "imageUrl": "./images/clothes/photo6001371697376244884.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 4",
+        "price": 55,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "5",
+        "title": "Noramal Esofman",
+        "imageUrl": "./images/clothes/photo6017056917941236995.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 5",
+        "price": 60,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "6",
+        "title": "Renkli Esofman",
+        "imageUrl": "./images/clothes/photo6037114136040682657.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 6",
+        "price": 35,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "7",
+        "title": "Sade Esofman",
+        "imageUrl": "./images/clothes/esofman.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 7",
+        "price": 30,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "8",
+        "title": "clothes Man",
+        "imageUrl": "./images/clothes/man-clothes-1.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 8",
+        "price": 130,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "9",
+        "title": "takim elbise",
+        "imageUrl": "./images/clothes/man-clothes-2.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 9",
+        "price": 330,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    },
+    {
+        "id": "10",
+        "title": "ayakla gomlek",
+        "imageUrl": "./images/clothes/man-clothes-3.jpg",
+        "type": "Clothes",
+        "desc": "this Is Product 10",
+        "price": 270,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "qty": 1,
+        "selectedSize": {},
+        "noSelectedSize": false
+    }
+]

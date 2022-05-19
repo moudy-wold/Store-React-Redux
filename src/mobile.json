@@ -1,0 +1,107 @@
+[
+    {
+        "id": "1",
+        "title": "Huawei P50",
+        "imageUrl": "./images/mobile/huawei  p50.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 1",
+        "price": 1550,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "2",
+        "title": "I Phone 12 PRO",
+        "imageUrl": "./images/mobile/i phone 12 pro max.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 2",
+        "price": 1410,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "3",
+        "title": "I Phone 12",
+        "imageUrl": "./images/mobile/i phone 12.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 3",
+        "price": 1220,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "4",
+        "title": "I Phone 13",
+        "imageUrl": "./images/mobile/i phone 13 mini.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 4",
+        "price": 1110,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "5",
+        "title": "I Phone 13 PRO",
+        "imageUrl": "./images/mobile/i phone 13 pro max.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 5",
+        "price": 990,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "6",
+        "title": "I Phone Max",
+        "imageUrl": "./images/mobile/i phone 13.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 6",
+        "price": 1570,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "7",
+        "title": "Note 20 Ultra",
+        "imageUrl": "./images/mobile/note 20 ultra.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 7",
+        "price": 1750,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "8",
+        "title": "S20",
+        "imageUrl": "./images/mobile/s20.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 8",
+        "price": 1450,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "9",
+        "title": "ZFlew",
+        "imageUrl": "./images/mobile/z flip.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 9",
+        "price": 2350,
+        "color": [
+            "BLUE",
+            "RED",
+            "BLACK"
+        ],
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "10",
+        "title": "Z FLIP 10",
+        "imageUrl": "./images/mobile/z-flip.jfif",
+        "type": "Mobile",
+        "desc": "this Is Product 10",
+        "price": 2550,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    }
+]

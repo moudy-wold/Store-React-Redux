@@ -1,0 +1,115 @@
+.footer {
+    display: block;
+    position: relative;
+    width: 100%;
+
+    .main {
+        display: flex;
+
+        @media(max-width:567px) {
+            display: block;
+            text-align: center;
+        }
+
+        .footer-logo {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 35px;
+
+            p {
+                cursor: pointer;
+            }
+
+            @media(max-width:567px) {
+                margin: 30px auto;
+            }
+        }
+
+        .footer-links {
+            width: 38%;
+            margin-top: 40px;
+            font-size: 22px;
+            font-weight: lighter;
+            display: flex;
+            justify-content: center;
+
+            @media(max-width:567px) {
+                margin: 20px auto;
+                width: 44%;
+            }
+
+
+            ul {
+                list-style: none;
+
+                @media(max-width:567px) {
+                    margin-left: 10px;
+
+                    text-align: left;
+                }
+
+
+                li {
+                    margin: 13px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: rgba(0, 255, 255, 0.776);
+                    }
+                }
+            }
+        }
+    }
+
+
+    .social {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin: 20px auto;
+
+        i {
+            margin: 7px;
+            cursor: pointer;
+            font-size: 23px;
+
+            &.fa-facebook {
+                color: #225edf;
+            }
+
+            &.fa-twitter {
+                color: #00acee;
+            }
+
+            &.fa-instagram {
+                color: #E1306C;
+
+            }
+
+            &.fa-google-plus-g {
+                color: #de5246;
+            }
+
+            &.fa-linkedin {
+                color: #0799e7;
+            }
+
+        }
+    }
+
+    .footer-word {
+        margin-top: 12px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    @media (max-width:567px) {
+        margin-top: 0;
+        height: 530px;
+    }
+}

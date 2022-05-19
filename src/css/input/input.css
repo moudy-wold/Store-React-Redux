@@ -1,0 +1,38 @@
+.inputs {
+  padding-top: 20px;
+}
+.inputs label {
+  margin-left: 25%;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+}
+@media (max-width: 567px) {
+  .inputs label {
+    margin-left: 12px;
+  }
+}
+.inputs input {
+  width: 50%;
+  display: block;
+  margin: 5px auto 0px;
+  line-height: 35px;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+@media (max-width: 567px) {
+  .inputs input {
+    width: 90%;
+  }
+}
+.inputs input[type=password] {
+  margin-bottom: 27px;
+}
+@media (max-width: 567px) {
+  .inputs input[type=password] {
+    margin-bottom: 16px;
+  }
+}

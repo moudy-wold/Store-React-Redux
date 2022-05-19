@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Product 1",
+        "imageUrl": "./images/product1.jpeg",
+        "type": "shoes",
+        "desc": "this Is Product 1",
+        "price": 30,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "2",
+        "title": "Product 2",
+        "imageUrl": "./images/product2.jpeg",
+        "type": "camera",
+        "desc": "this Is Product 2",
+        "price": 40,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "3",
+        "title": "Product 3",
+        "imageUrl": "./images/product3.jpg",
+        "type": "Airpods",
+        "desc": "this Is Product 3",
+        "price": 20,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    }
+]

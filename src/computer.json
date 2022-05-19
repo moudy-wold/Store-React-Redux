@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "title": "Harici DVD",
+        "imageUrl": "./images/computer/harici dvd.jfif",
+        "type": "Accessory",
+        "desc": "this Is Product 1",
+        "price": 65,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "2",
+        "title": "Samsung Monitor",
+        "imageUrl": "./images/computer/monitor smsung.jfif",
+        "type": "Accessory",
+        "desc": "this Is Product 2",
+        "price": 45,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "3",
+        "title": "Power Splay",
+        "imageUrl": "./images/computer/power splay.jfif",
+        "type": "Accessory",
+        "desc": "this Is Product 3",
+        "price": 50,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "4",
+        "title": "Processor",
+        "imageUrl": "./images/computer/processor.jpg",
+        "type": "Accessory",
+        "desc": "this Is Product 4",
+        "price": 75,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "5",
+        "title": "Hard Disk",
+        "imageUrl": "./images/computer/product4.png",
+        "type": "Accessory",
+        "desc": "this Is Product 5",
+        "price": 35,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "6",
+        "title": "Ram 6GB",
+        "imageUrl": "./images/computer/ram.jpg",
+        "type": "Accessory",
+        "desc": "this Is Product 6",
+        "price": 55,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "7",
+        "title": "Screen Cart",
+        "imageUrl": "./images/computer/screen cart.jfif",
+        "type": "Accessory",
+        "desc": "this Is Product 7",
+        "price": 20,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "8",
+        "title": "SSD Hard",
+        "imageUrl": "./images/computer/ssd hard disl.jfif",
+        "type": "Accessory",
+        "desc": "this Is Product 8",
+        "price": 25,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "9",
+        "title": "HadePhone",
+        "imageUrl": "./images/computer/hadephone.jpg",
+        "type": "Accessory",
+        "desc": "this Is Product 8",
+        "price": 45,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    },
+    {
+        "id": "10",
+        "title": "Camera",
+        "imageUrl": "./images/computer/camera.jpeg",
+        "type": "Accessory",
+        "desc": "this Is Product 10",
+        "price": 35,
+        "qty": 1,
+        "checkOnSizeSelect": false
+    }
+]

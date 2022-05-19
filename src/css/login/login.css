@@ -1,0 +1,38 @@
+.login {
+  width: 12%;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(133, 162, 243);
+  border-radius: 14px 0 0 14px;
+  padding: 3px 0 3px 5px;
+  margin-left: 40px;
+  float: right;
+  position: relative;
+  cursor: pointer;
+}
+.login img {
+  width: 30%;
+  border-radius: 50%;
+  border: 1px solid rgb(17, 126, 204);
+  padding: 1px;
+  margin-left: 5px;
+}
+.login span {
+  margin: 2px;
+  font-size: 18px;
+  color: #EEE;
+}
+.login:hover::after {
+  content: attr(data-email);
+  position: absolute;
+  bottom: -50px;
+  left: -7px;
+  width: 100%;
+  line-height: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(34, 34, 34, 0.41);
+  padding: 8px;
+  z-index: 2;
+}
