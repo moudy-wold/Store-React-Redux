@@ -4,7 +4,7 @@ import "./card.scss";
 import Bounce from "react-reveal/Bounce";
 import Jump from 'react-reveal/Jump';
 import { useSelector, useDispatch } from 'react-redux';
-import { handleRermoveFromSelected, setOpenAcceptOrder } from '../store/reducres/reducerSlice';
+import { handleRemoveFromSelected, setOpenAcceptOrder } from '../store/reducres/reducerSlice';
 import OrderDoneComp from '../orderDoneComp/orderDoneComp';
 
 export default function Card() {
@@ -15,6 +15,7 @@ export default function Card() {
     const dispatch = useDispatch();
     // To Open details Order Window
     const { orderStatus } = useSelector(state => state.userData);
+    console.log(selectedProducts)
     return (
         <Bounce right cascade>
             <div className='card'>
@@ -24,7 +25,7 @@ export default function Card() {
                             <p className="card-count">Thare Is {selectedProducts.length} Items In Cart</p>
                         </Jump>
                         {selectedProducts.map(product => (
-                            <div className='product-card' key={product.id}>
+                            <div className='product-card' key={product.title}>
                                 <div className="product-deta">
                                     <img src={product.imageUrl} alt={product.desc} />
                                     <div className="data">
@@ -37,7 +38,7 @@ export default function Card() {
                                     </div>
                                 </div>
                                 <div className='remove-card'>
-                                    <button className='remove-btn' onClick={() => dispatch(handleRermoveFromSelected(product))}>Remove</button>
+                                    <button className='remove-btn' onClick={() => dispatch(handleRemoveFromSelected(product))}>Remove</button>
                                 </div>
                             </div>
                         ))}

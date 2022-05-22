@@ -12,12 +12,14 @@ function App() {
   dispatch(priceCollection());
 
   return (
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/layout/*" element={<Layout />} />
       </Routes>
     </BrowserRouter>
+
   );
 }
 

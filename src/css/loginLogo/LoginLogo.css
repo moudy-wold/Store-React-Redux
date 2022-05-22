@@ -26,6 +26,12 @@
   width: 10px;
   margin: 0 4px 0 6px;
 }
+.container-login-logo .login .details-logo i {
+  margin: 6px;
+}
+.container-login-logo .login .details-logo i:hover {
+  color: rgba(0, 255, 255, 0.776);
+}
 .container-login-logo .login .details-logo div {
   display: none;
   width: fit-content;
@@ -57,6 +63,13 @@
 }
 .container-login-logo .login .details-logo div span:hover {
   color: rgba(0, 255, 255, 0.776);
+}
+.container-login-logo .login .details-logo div span.log-out:hover, .container-login-logo .login .details-logo div span.log-out:hover i {
+  color: red;
+}
+.container-login-logo .login .details-logo div span i {
+  float: right;
+  margin-top: 5px;
 }
 .container-login-logo .login .details-logo i {
   color: #fff;

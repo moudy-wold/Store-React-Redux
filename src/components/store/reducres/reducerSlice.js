@@ -19,8 +19,6 @@ export const userSlice = createSlice({
         openAccept: false,
         // To CHeck Selected Size Or No
         selectSize: false,
-        // To Open Close Accept Window
-        // check: true,
         // Came Data From Fliter Search
         filterData: '',
         // To Save Selected Size 
@@ -67,7 +65,6 @@ export const userSlice = createSlice({
             }
             localStorage.setItem("selectedProductsLocal", JSON.stringify(newArr));
             state.selectedProducts = newArr;
-
         },
         // To select Size to clothes
         handleSelctSize: (state, action) => {
@@ -78,8 +75,8 @@ export const userSlice = createSlice({
             state.selectSize = false
         },
         // select item from card and from local storage
-        handleRermoveFromSelected: (state, action) => {
-            let newArr = state.selectedProducts.filter(item => item.id != action.payload.id)
+        handleRemoveFromSelected: (state, action) => {
+            let newArr = state.selectedProducts.filter(item => item.title != action.payload.title)
             localStorage.setItem("selectedProductsLocal", JSON.stringify(newArr));
             state.selectedProducts = newArr;
         },
@@ -102,7 +99,6 @@ export const userSlice = createSlice({
                 if (vailedValueFromEmail) {
                     state.orderData = { ...state.orderData, ...action.payload };
                     localStorage.setItem("nameEmail", JSON.stringify(state.orderData));
-
                 }
             }
             // Check If Inputs Empty Or No
@@ -112,7 +108,6 @@ export const userSlice = createSlice({
         },
         // To open accept window (register)
         setOpenAcceptOrder: (state) => {
-
             // To check if the user is logged in
             if (Object.keys(state.orderData).length === 0) {
                 state.openAccept = true;
@@ -127,19 +122,12 @@ export const userSlice = createSlice({
         },
         // to open details order window
         orderDoneSubmit: (state) => {
-            // To check if the user is entered right data 
-
             // If Data Is Right Open Details Order Window
-            // if (vailedValueFromEmail) {
             if (Object.keys(state.orderData).length == 3) {
                 state.orderStatus = true;
                 state.openAccept = false;
                 window.scroll({ top: 0, behavior: "smooth" });
-                console.log("asd")
             }
-            // } else {
-            // state.orderStatus = false;
-            // }
         },
         // To close Details Order Window
         orderCloseFun: (state) => {
@@ -155,6 +143,6 @@ export const userSlice = createSlice({
     }
 })
 
-export const { searchInHome, handleAddToCart, handleBLorInput, handleSelctSize, handleRermoveFromSelected, priceCollection, orderCloseFun, orderDoneSubmit, handleBlurInput, setOpenAcceptOrder, closeAccept, oenNavFun } = userSlice.actions;
+export const { searchInHome, handleAddToCart, handleBLorInput, handleSelctSize, handleRemoveFromSelected, priceCollection, orderCloseFun, orderDoneSubmit, handleBlurInput, setOpenAcceptOrder, closeAccept, oenNavFun } = userSlice.actions;
 
 export default userSlice.reducer;

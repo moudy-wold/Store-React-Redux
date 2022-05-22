@@ -27,6 +27,14 @@
             width: 10px;
             margin: 0 4px 0 6px;
 
+            i {
+                margin: 6px;
+
+                &:hover {
+                    color: rgba(0, 255, 255, 0.776)
+                }
+            }
+
             div {
                 display: none;
                 width: fit-content;
@@ -59,6 +67,16 @@
                     &:hover {
                         color: rgba(0, 255, 255, 0.776);
                     }
+
+                    &.log-out:hover,
+                    &.log-out:hover i {
+                        color: red;
+                    }
+                }
+
+                & span i {
+                    float: right;
+                    margin-top: 5px;
                 }
             }
 
@@ -72,8 +90,6 @@
                 transform: rotate(180deg);
             }
         }
-
-
 
         .info {
             width: 96%;
@@ -125,7 +141,6 @@
             font-size: 20px;
             color: #fff;
             margin-right: 7px;
-
         }
 
         &:hover {

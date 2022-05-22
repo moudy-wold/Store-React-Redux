@@ -19,6 +19,10 @@
   left: 0;
   z-index: 0;
 }
+.login-page .logged {
+  padding: 10px;
+  text-align: center;
+}
 .login-page .box {
   position: relative;
   z-index: 2;

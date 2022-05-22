@@ -5,10 +5,9 @@ import '../../css/LoginPage/LoginPage.css';
 import { handleBlurInput } from "../store/reducres/reducerSlice";
 
 export default function LoginPage() {
-    // To Open details Order Window
+    // To Save Data entered From User
     const { orderData } = useSelector(state => state.userData);
-    // To Check Entered Email In login Page Is Valid Or No
-
+    //For Form
     const handleSubmit = (e) => {
         e.preventDefault();
     }
@@ -25,13 +24,10 @@ export default function LoginPage() {
                     <input type='email' required placeholder='Enter Your Email' onBlur={(e) => dispatch(handleBlurInput({ email: e.target.value }))} />
                     <label>Password</label>
                     <input type='password' required placeholder='Create Password' onBlur={(e) => dispatch(handleBlurInput({ pass: e.target.value }))} />
-                    {/* <button >{emailValid == false ? <span>Sign Up</span> : <NavLink to='./layout/home'>Sign Up</NavLink>}</button> */}
-
-                    <NavLink className={Object.keys(orderData).length == 3 ? "sign-up" : "noactive"} type='submit' to='./layout/home'>Sign Up</NavLink>
-
+                    <NavLink className={Object.keys(orderData).length == 3 ? "sign-up" : "noactive"} type='submit' to='./layout/home'>{Object.keys(orderData).length == 3 ? "sign in" : "Sign Up"}</NavLink>
                     <NavLink to='./layout/home'>Skip</NavLink>
                 </form>
             </div>
-        </div >
+        </div>
     )
 }
